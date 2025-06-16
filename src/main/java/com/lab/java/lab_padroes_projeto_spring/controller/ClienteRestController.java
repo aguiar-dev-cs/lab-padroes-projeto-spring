@@ -1,7 +1,7 @@
-package com.lab.java.lab_padroes.projeto_spring.controller;
+package com.lab.java.lab_padroes_projeto_spring.controller;
 
-import com.lab.java.lab_padroes.projeto_spring.model.Cliente;
-import com.lab.java.lab_padroes.projeto_spring.service.ClienteService;
+import com.lab.java.lab_padroes_projeto_spring.model.Cliente;
+import com.lab.java.lab_padroes_projeto_spring.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.lab.java.lab_padroes.projeto_spring.model;
+package com.lab.java.lab_padroes_projeto_spring.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

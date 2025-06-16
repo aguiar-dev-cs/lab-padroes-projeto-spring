@@ -1,6 +1,6 @@
-package com.lab.java.lab_padroes.projeto_spring.service;
+package com.lab.java.lab_padroes_projeto_spring.service;
 
-import com.lab.java.lab_padroes.projeto_spring.model.Cliente;
+import com.lab.java.lab_padroes_projeto_spring.model.Cliente;
 
 /**
  * Interface que define o padrão STRATEGY no domínio de cliente. Com

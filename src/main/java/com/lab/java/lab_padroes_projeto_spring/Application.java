@@ -1,4 +1,4 @@
-package com.lab.java.lab_padroes.projeto_spring;
+package com.lab.java.lab_padroes_projeto_spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

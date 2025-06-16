@@ -1,11 +1,11 @@
-package com.lab.java.lab_padroes.projeto_spring.service.impl;
+package com.lab.java.lab_padroes_projeto_spring.service.impl;
 
-import com.lab.java.lab_padroes.projeto_spring.model.Cliente;
-import com.lab.java.lab_padroes.projeto_spring.model.ClienteRepository;
-import com.lab.java.lab_padroes.projeto_spring.model.Endereco;
-import com.lab.java.lab_padroes.projeto_spring.model.EnderecoRepository;
-import com.lab.java.lab_padroes.projeto_spring.service.ClienteService;
-import com.lab.java.lab_padroes.projeto_spring.service.ViaCepService;
+import com.lab.java.lab_padroes_projeto_spring.model.Cliente;
+import com.lab.java.lab_padroes_projeto_spring.model.ClienteRepository;
+import com.lab.java.lab_padroes_projeto_spring.model.Endereco;
+import com.lab.java.lab_padroes_projeto_spring.model.EnderecoRepository;
+import com.lab.java.lab_padroes_projeto_spring.service.ClienteService;
+import com.lab.java.lab_padroes_projeto_spring.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +27,7 @@ public class ClienteServiceImpl implements ClienteService {
 	private EnderecoRepository enderecoRepository;
 	@Autowired
 	private ViaCepService viaCepService;
-	
+
 	// Strategy: Implementar os métodos definidos na interface.
 	// Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
 
